@@ -8,7 +8,7 @@
   --df-messenger-chat-border: 1px solid var(--df-messenger-border-color);
   --df-messenger-chat-border-radius: 0;
   --df-messenger-chat-background: rgb(243, 246, 252);
-  --df-messenger-chat-padding: 100px 100px 100px 100px;
+  --df-messenger-chat-padding: 24px 24px 8px 24px;
   --df-messenger-chat-scroll-button-enabled-display: flex;
   --df-messenger-chat-scroll-button-align: flex-end;
   --df-messenger-chat-scroll-button-container-padding: 32px 16px;
@@ -44,14 +44,14 @@
   --df-messenger-message-padding: 16px;
   --df-messenger-message-bot-background: rgb(255, 255, 255);
   --df-messenger-message-user-background: rgb(211, 227, 253);
-  --df-messenger-message-border-radius: 16px;
+  --df-messenger-message-border-radius: 24px;
   --df-messenger-message-bot-border-top-left-radius: 0;
   --df-messenger-message-bot-stack-border-top-left-radius: 0;
   --df-messenger-message-bot-stack-border-bottom-left-radius: 0;
   --df-messenger-message-user-border-top-right-radius: 0;
   --df-messenger-message-user-stack-border-top-right-radius: 0;
   --df-messenger-message-user-stack-border-bottom-right-radius: 0;
-  --df-messenger-message-stack-spacing: 4px;
+  --df-messenger-message-stack-spacing: 10px;
 
   /* User Input. */
   --df-messenger-input-long-text-warning-display: block;
