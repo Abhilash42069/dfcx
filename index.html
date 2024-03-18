@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dialogflow Messenger Integration</title>
+  <!-- Include Dialogflow Messenger CSS -->
+  <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+</head>
+<body>
+
+<!-- Dialogflow Messenger Integration -->
+<df-messenger
+  location="us-central1"
+  project-id="virtual-tape-326311"
+  agent-id="ceecd8e0-8710-4595-a601-44b011668d93"
+  language-code="en"
+  max-query-length="-1">
+  <df-messenger-chat-bubble
+   chat-title="kpi info">
+  </df-messenger-chat-bubble>
+</df-messenger>
+
+<!-- Custom CSS for Dialogflow Messenger -->
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+  }
+</style>
+
+<!-- Include Dialogflow Messenger JavaScript -->
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+
+</body>
+</html>
